@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна</title>
+    <link rel="icon" href="styles/pictures/favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/menu.css">
+</head>
+
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#">Головна</a>
+            <a href="about-us/about-us.html">Про нас</a>
+            <a href="action/action.html">Акція</a>
+            <a href="contacts/contacts.html">Контакти</a>
+            <div class="d-flex">
+                <a href="#">
+                    <span class="active-lang-mob">УКР</span>
+                </a>
+                <a href="eng/main-page.html">
+                    <span class="passive-lang-mob">ENG</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <header class="firstColor">
+        <a href="index.html">
+            <div class="header__logo eng_logo"></div>
+        </a>
+        <div class="header__mobile-menu"></div>
+        <div class="header__language">
+            <a href="#">
+                <span class="active-lang">УКР</span>
+            </a>
+            <a href="eng/main-page.html">
+                <span>ENG</span>
+            </a>
+        </div>
+        <span onclick="openNav()" class="mobNav"></span>
+    </header>
+    <nav>
+        <div class="wrap">
+            <div class="menu_wrapper active-menu">
+                <div class="circle"></div>
+                <span>Головна</span>
+            </div>
+            <div class="line"></div>
+            <div class="menu_wrapper">
+                <a href="about-us/about-us.html">
+                    <div class="circle"></div>
+                    <span>Про нас</span>
+                </a>
+            </div>
+            <div class="line"></div>
+            <div class="menu_wrapper">
+                <a href="action/action.html">
+                    <div class="circle"></div>
+                    <span>Акція</span>
+                </a>
+            </div>
+            <div class="line"></div>
+            <div class="menu_wrapper">
+                <a href="contacts/contacts.html">
+                    <div class="circle"></div>
+                    <span>Контакти</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="main__hero">
+            <div class="main__hero__leaf d-flex">
+                <div class="wrapper">
+                    <div class="main__hero__leaf__logo"></div>
+                    <div class="main__hero__leaf__name d-flex">
+                        <span id="letter1">Б</span>
+                        <span id="letter2">У</span>
+                        <span id="letter3">М</span>
+                        <span id="letter4">К</span>
+                        <span id="letter5">О</span>
+                        <span id="letter6">Р</span>
+                        <span id="letter7">Н</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main__hero__text">Енерджі Бум! Швидкий перекус та заряд енергії для всієї родини!</div>
+        </div>
+        <div class="main__gradient1"></div>
+        <div class="main__catalog secondColor d-flex">
+            <div class="main__catalog__menu">
+                <div class="main__catalog__menu__item active_product" id="menu-product-1" onclick="openProduct1()">
+                    Солодкі кукурудзяні палички</div>
+                <div class="main__catalog__menu__item" id="menu-product-2" onclick="openProduct2()">Кукурудзяні палички
+                    з сюрпризом</div>
+                <div class="main__catalog__menu__item" id="menu-product-3" onclick="openProduct3()">Кукурудзяні трубочки
+                    з начинкою</div>
+                <div class="main__catalog__menu__item" id="menu-product-4" onclick="openProduct4()">Кондитерський набір
+                    з сюрпризом</div>
+                <div class="main__catalog__menu__item" id="menu-product-5" onclick="openProduct5()">Солодкі кукурудзяні
+                    снеки з<br>начинкою</div>
+                <div class="main__catalog__menu__item" id="menu-product-6" onclick="openProduct6()">Приват лейбл</div>
+                <div class="main__catalog__menu__item" id="menu-product-7" onclick="openProduct7()">Ваговий товар</div>
+            </div>
+            <div class="main__catalog__products" id="product-1">
+                <div class="main__catalog__products__item1 d-flex" id="item1-1">
+                    <img src="styles/pictures/Boomcorn_maluykam_50.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item1-2">
+                    <img src="styles/pictures/Boomcorn_maluykam_170.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item1-3">
+                    <img src="styles/pictures/Boomcorn_maluykam_molochni_50.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item1-4">
+                    <img src="styles/pictures/Boomcorn_maluykam_molochni_170.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item1-5">
+                    <img src="styles/pictures/Karapyz_solodki_60.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item1-6">
+                    <img src="styles/pictures/Karapyz_solodki_200.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item1-7">
+                    <img src="styles/pictures/Karapyz_solodki_prjazene_60.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item1-8">
+                    <img src="styles/pictures/Karapyz_solodki_prjazene_200.png">
+                </div>
+            </div>
+            <div class="main__catalog__products" id="product-2">
+                <div class="main__catalog__products__item1 d-flex" id="item2-1">
+                    <img src="styles/pictures/Amidos_chlopchik_100.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item2-2">
+                    <img src="styles/pictures/Amidos_divchatka_100.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item2-3">
+                    <img src="styles/pictures/Lisichka_100.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item2-4">
+                    <img src="styles/pictures/Lisichka_dlya divchatok_100.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item2-5">
+                    <img src="styles/pictures/Mylti_pulti_chlopci_100.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item2-6">
+                    <img src="styles/pictures/Mylti_pulti_divchatka_100.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item2-7">
+                    <img src="styles/pictures/Spider_100.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item2-8">
+                    <img src="styles/pictures/Vinks_100.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item2-9">
+                    <img src="styles/pictures/Stars_chlopci_100.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item2-10">
+                    <img src="styles/pictures/Stars_divchatka_100.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item2-11">
+                    <img src="styles/pictures/Tik tok_chlopci_100.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item2-12">
+                    <img src="styles/pictures/Tik tok_divchatka_100.png">
+                </div>
+            </div>
+            <div class="main__catalog__products" id="product-3">
+                <div class="main__catalog__products__item1 d-flex" id="item3-1">
+                    <img src="styles/pictures/Bumchik_apelsin_20.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item3-2">
+                    <img src="styles/pictures/Bumchik_banan_20.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item3-3">
+                    <img src="styles/pictures/Bumchik_fistashka_20.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item3-4">
+                    <img src="styles/pictures/Bumchik_klybnika_20.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item3-5">
+                    <img src="styles/pictures/Bumchik_moloko_20.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item3-6">
+                    <img src="styles/pictures/Bumchik_polunycja_banan_20.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item3-7">
+                    <img src="styles/pictures/Bumchik_shokolad_20.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item3-8">
+                    <img src="styles/pictures/Bumchik_yagoda_20.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item3-9">
+                    <img src="styles/pictures/Kinder_bumchik_malyna.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item3-10">
+                    <img src="styles/pictures/Kinder_bumchik_shokolad.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item3-11">
+                    <img src="styles/pictures/Kinder_bumchik_vyshnya.png">
+                </div>
+            </div>
+            <div class="main__catalog__products" id="product-4">
+                <div class="main__catalog__products__item1 d-flex" id="item4-1">
+                    <img src="styles/pictures/Бум приз 10 мальчик 3Д_1.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item4-2">
+                    <img src="styles/pictures/Бум приз 10 девочка 3Д_1.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item4-3">
+                    <img src="styles/pictures/11 см мальчик 3Д_1.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item4-4">
+                    <img src="styles/pictures/11 см девочка 3Д_1.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item4-5">
+                    <img src="styles/pictures/14 см мальчик 3Д_1.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item4-6">
+                    <img src="styles/pictures/14 см девочка 3D_1.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item4-7">
+                    <img src="styles/pictures/new year1.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item4-8">
+                    <img src="styles/pictures/new year2.png">
+                </div>
+            </div>
+            <div class="main__catalog__products" id="product-5">
+                <div class="main__catalog__products__item1 d-flex" id="item5-1">
+                    <img src="styles/pictures/Super_hrust_shokolad_135.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item5-2">
+                    <img src="styles/pictures/Super_hrust_moloko_135.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item5-3">
+                    <img src="styles/pictures/Super_hrust_kokos_135.png">
+                </div>
+            </div>
+            <div class="main__catalog__products" id="product-6">
+                <div class="main__catalog__products__item1 d-flex" id="item6-1">
+                    <img src="styles/pictures/private label 1.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item6-2">
+                    <img src="styles/pictures/private label 2.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item6-3">
+                    <img src="styles/pictures/private label 3.png">
+                </div>
+            </div>
+            <div class="main__catalog__products" id="product-7">
+                <div class="main__catalog__products__item1 d-flex" id="item7-1">
+                    <img src="styles/pictures/schokolad.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item7-2">
+                    <img src="styles/pictures/moloko.png">
+                </div>
+                <div class="main__catalog__products__item1 d-flex" id="item7-3">
+                    <img src="styles/pictures/kokos.png">
+                </div>
+            </div>
+        </div>
+        <div class="main__gradient2"></div>
+        <div class="main__catalog firstColor d-flex">
+            <div class="main__catalog__menu" id="small-menu">
+                <div class="main__catalog__menu__item active_product" id="menu-product-8" onclick="openProduct8()">Брати
+                    качани</div>
+                <div class="main__catalog__menu__item" id="menu-product-9" onclick="openProduct9()">Бум снек</div>
+                <div class="main__catalog__menu__item" id="menu-product-10" onclick="openProduct10()">Бум</div>
+            </div>
+            <div class="main__catalog__products" id="product-8">
+                <div class="main__catalog__products__item2 d-flex" id="item8-1">
+                    <img src="styles/pictures/Braty_kachany_60.png">
+                </div>
+            </div>
+            <div class="main__catalog__products" id="product-9">
+                <div class="main__catalog__products__item2 d-flex" id="item9-1">
+                    <img src="styles/pictures/Bum_sneck_buzenyna.png">
+                </div>
+                <div class="main__catalog__products__item2 d-flex" id="item9-2">
+                    <img src="styles/pictures/Bum_sneck_gryby.png">
+                </div>
+                <div class="main__catalog__products__item2 d-flex" id="item9-3">
+                    <img src="styles/pictures/Bum_sneck_mjaso z prjanoschamy.png">
+                </div>
+                <div class="main__catalog__products__item2 d-flex" id="item9-4">
+                    <img src="styles/pictures/Bum_sneck_pizza.png">
+                </div>
+                <div class="main__catalog__products__item2 d-flex" id="item9-5">
+                    <img src="styles/pictures/Bum_sneck_shashlyk.png">
+                </div>
+                <div class="main__catalog__products__item2 d-flex" id="item9-6">
+                    <img src="styles/pictures/Bum_sneck_syr.png">
+                </div>
+            </div>
+
+            <div class="main__catalog__products" id="product-10">
+                <div class="main__catalog__products__item2 d-flex" id="item10-1">
+                    <img src="styles/pictures/Bum_syr.png">
+                </div>
+                <div class="main__catalog__products__item2 d-flex" id="item10-2">
+                    <img src="styles/pictures/Bum_pizza.png">
+                </div>
+                <div class="main__catalog__products__item2 d-flex" id="item10-3">
+                    <img src="styles/pictures/Bum_buzenyna.png">
+                </div>
+                <div class="main__catalog__products__item2 d-flex" id="item10-4">
+                    <img src="styles/pictures/Bum_kokteyl.png">
+                </div>
+                <div class="main__catalog__products__item2 d-flex" id="item10-5">
+                    <img src="styles/pictures/Bum_telyatyna.png">
+                </div>
+                <div class="main__catalog__products__item2 d-flex" id="item10-6">
+                    <img src="styles/pictures/Bum_salyami.png">
+                </div>
+                <div class="main__catalog__products__item2 d-flex" id="item10-6">
+                    <img src="styles/pictures/Bum_mjyaso.png">
+                </div>
+            </div>
+        </div>
+        <div class="main__gradient1"></div>
+    </main>
+    <footer class="d-flex">
+        <span>2023 ТМ Бумкорн - Енерджі Бум ТМ використовується на підставі ліцензії правовласника ТМ Бумкорн</span>
+    </footer>
+
+    <script src="script/menu.js"></script>
+    <script src="script/index.js"></script>
+</body>
+
+</html>

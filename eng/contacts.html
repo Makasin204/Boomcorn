@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="icon" href="../styles/pictures/favicon.png" type="image/png">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/contacts.css">
+    <link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="../styles/eng_contacts.css">
+</head>
+
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="main-page.html">Main page</a>
+            <a href="about-us.html">About us</a>
+            <a href="prize-draw.html">Prize draw</a>
+            <a href="#">Contacts</a>
+            <div class="d-flex">
+                <a href="../contacts/contacts.html">
+                    <span class="passive-lang-mob">УКР</span>
+                </a>
+                <a href="#">
+                    <span class="active-lang-mob">ENG</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <header class="secondColor">
+        <a href="main-page.html">
+            <div class="header__logo"></div>
+        </a>
+        <div class="header__language">
+            <a href="../contacts/contacts.html">
+                <span>УКР</span>
+            </a>
+            <a href="#">
+                <span class="active-lang">ENG</span>
+            </a>
+        </div>
+        <span onclick="openNav()" class="mobNav"></span>
+    </header>
+    <nav class="d-flex">
+        <div class="wrap">
+            <div class="menu_wrapper">
+                <a href="main-page.html">
+                    <div class="circle"></div>
+                    <span>Main page</span>
+                </a>
+            </div>
+            <div class="line"></div>
+            <div class="menu_wrapper">
+                <a href="about-us.html">
+                    <div class="circle"></div>
+                    <span>About us</span>
+                </a>
+            </div>
+            <div class="line"></div>
+            <div class="menu_wrapper">
+                <a href="prize-draw.html">
+                    <div class="circle"></div>
+                    <span>Prize draw</span>
+                </a>
+            </div>
+            <div class="line"></div>
+            <div class="menu_wrapper active-menu">
+                <a href="#">
+                    <div class="circle"></div>
+                    <span>Contacts</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="main__contacts secondColor">
+            <form>
+                <div class="title">Contact with us</div>
+                <input type="text" id="name" name="name" placeholder="Last name First Name Patronymic name" required>
+                <input type="text" id="adress" name="adress" placeholder="Address" required>
+                <input type="tel" id="tel" name="tel" placeholder="Mobile number" required>
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+                <textarea type="" id="letter" name="letter" placeholder="Your message..."
+                    maxlength="204"></textarea>
+                <button type="button" class="button">Submit</button>
+            </form>
+            <div class="main__contacts__social-media">
+                <div class="social-wrapper">
+                    <a href="https://www.facebook.com/Boomcorn.ua" target="_blank" class="social-link margin">
+                        <img src="../styles/pictures/icon_fb.png">
+                    </a>
+                    <a href="#" target="_blank" class="social-link">
+                        <img src="../styles/pictures/icon_tt.png">
+                    </a>
+                </div>
+                <div class="social-wrapper">
+                    <a href="#" target="_blank" class="social-link margin">
+                        <img src="../styles/pictures/icon_yt.png">
+                    </a>
+                    <a href="https://www.instagram.com/boomcorntm/" target="_blank" class="social-link">
+                        <img src="../styles/pictures/icon_ig.png">
+                    </a>
+                </div>
+                <div class="main__contacts__phone-number d-flex">
+                    <img src="../styles/pictures/icon_phone.png">+380473496050
+                </div>
+            </div>
+        </div>
+        <div class="main__adress-block d-flex">
+            <div class="main__adress-block__adress">Private Limited Company “Boomcorn”, 19523, Ukraine, Cherkasy Oblast, Zvenyhorods’kyi district, urban-type settlement Vil’shana, Shevchenka St, 180.</div>
+        </div>
+        <div class="main__gradient2"></div>
+    </main>
+    <footer class="d-flex firstColor">
+        <span>2023 Trademark (TM) Boomcorn – Energy Boom TM are used under the license of the right holder TM Boomcorn</span>
+    </footer>
+    <script src="../script/menu.js"></script>
+</body>
+
+</html>
