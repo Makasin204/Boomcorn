@@ -1,0 +1,7 @@
+.header__logo{
+    background-image: url(pictures/header_logo_eng.png);
+}
+.main__adress-block__adress{
+    height: fit-content;
+    padding: 0px 20px;
+}

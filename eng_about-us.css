@@ -1,0 +1,28 @@
+.header__logo{
+    background-image: url(pictures/header_logo_eng.png);
+}
+.info-1{
+    background-image: url(pictures/info_eng1.svg);
+}
+.info-2{
+    background-image: url(pictures/info_eng2.svg);
+}
+.info-3{
+    background-image: url(pictures/info_eng3.svg);
+}
+.info-4{
+    margin-right: 70px;
+    background-image: url(pictures/info_eng4.svg);
+}
+.info-5{
+    background-image: url(pictures/info_eng5.svg);
+}
+.info-6{
+    background-image: url(pictures/info_eng6.svg);
+}
+.info-7{
+    background-image: url(pictures/info_eng7.svg);
+}
+.info-8{
+    background-image: url(pictures/info_eng8.svg);
+}

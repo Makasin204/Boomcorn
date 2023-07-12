@@ -1,0 +1,232 @@
+.main__contacts{
+    width: 100%;
+    height: fit-content;
+    font-family: "RetniSans-Bold";
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.main__contacts>form{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.title{
+font-size: 42px;
+}
+input, textarea{
+    width: 495px;
+    height: 60px;
+    background-color: #A4D9E1;
+    border: 1px solid #FFFFFF;
+    border-radius: 300px;
+    padding: 17px 22px;
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+#letter{
+    height: 170px;
+    border-radius: 30px;
+    line-height: 30px;
+    text-align: start;
+    resize: none;
+}
+input::placeholder, textarea::placeholder{
+    font-family: "RetniSans-Bold";
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.button{
+    width: 495px;
+    height: 60px;
+    background-color: #FFFFFF;
+    color: #78C7C2;
+    font-size: 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 300px;
+    margin-top: 16px;
+    font-family: "RetniSans-Bold";
+    transition-duration: 0.3s;
+}
+.button:hover{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background-color: #78C7C2;
+    cursor: pointer;
+}
+.main__contacts__social-media{
+    width: 302px;
+    height: 394px;
+    margin-left: 10%;
+}
+.social-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.social-wrapper>.margin{
+    margin-right: 32px;
+}
+.main__contacts__phone-number{
+    width: 302px;
+    height: 60px;
+    border-radius: 300px;
+    background-color: #FFFFFF;
+    font-family: "RetniSans-Bold";
+    font-size: 20px;
+    color: #78C7C2;
+}
+.main__contacts__phone-number>img{
+    margin-right: 10px;
+}
+.main__adress-block{
+    width: 100%;
+    height: fit-content;
+    background-color: #A4D9E1;
+    padding-top: 50px;
+}
+.main__adress-block__adress{
+    width: 942px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 44px;
+    font-family: "RetniSans-Bold";
+    font-size: 20px;
+    color: #78C7C2;
+}
+@media screen and (max-width: 1280px){
+    .main__contacts{
+        padding-top: 50px;
+    }
+    .header__logo{
+		width: 80px;
+		height: 67px;
+		position: relative;
+		top: 0;
+	}
+	nav>.wrap, header>.header__language{
+		display: none;
+	}
+	footer>span{
+		width: 70%;
+	}
+    .mobNav{
+        display: block;
+    }
+    footer>span{
+		width: 70%;
+		height: 100%;
+	}
+}
+@media screen and (max-width: 1100px){
+    input, textarea{
+        width: 400px;
+        height: 60px;
+    }
+    .title{
+        font-size: 36px;
+    }
+    .button{
+        width: 400px;
+
+    }
+    .main__adress-block__adress{
+        width: 90%;
+        height: fit-content;
+        padding: 0px 30px;
+    }
+    .social-link>img{
+        width: 100px;
+        height: 100px;
+    }
+    .main__contacts__social-media{
+        width: fit-content;
+        height: fit-content;
+        margin-left: 50px;
+    }
+    .main__contacts__phone-number{
+        width: 232px;
+        font-size: 16px;
+    }
+    .main__contacts__phone-number>img{
+        width: 15px;
+        height: 15px;
+    }
+}
+@media screen and (max-width: 769px){
+    .main__contacts{
+        flex-direction: column;
+    }
+    .main__contacts__social-media{
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .main__adress-block__adress{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .social-link>img{
+        width: 140px;
+        height: 140px;
+    }
+    .main__contacts__phone-number{
+        width: 312px;
+        font-size: 20px;
+    }
+    .main__contacts{
+        padding-top: 30px;
+    }
+    footer>span{
+		width: 90%;
+	}
+}
+@media screen and (max-width:520px) {
+    .header__logo{
+		width: 50px;
+		height: 42px;
+	}
+}
+@media screen and (max-width: 450px) {
+    .title{
+        font-size: 26px;
+    }
+    .button{
+        width: 320px;
+
+    }
+    input, textarea{
+        width: 320px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .social-link>img{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 350px) {
+    input, textarea{
+        width: 230px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .button{
+        width: 230px;
+    }
+    .main__contacts__phone-number{
+        width: 230px;
+        font-size: 16px;
+    }
+    .main__adress-block__adress{
+        font-size: 14px;
+    }
+}
