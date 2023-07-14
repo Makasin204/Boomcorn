@@ -74,14 +74,15 @@
     </nav>
     <main>
         <div class="main__contacts secondColor">
-            <form>
+            <form action="../sendmail.php" method="POST">
                 <div class="title">Зв'язатись з нами</div>
-                <input type="text" id="name" name="name" placeholder="Прізвище Ім’я По-батькові" required>
-                <input type="text" id="adress" name="adress" placeholder="Адреса" required>
-                <input type="tel" id="tel" name="tel" placeholder="Телефон" required>
-                <input type="email" id="email" name="email" placeholder="E-mail" required>
-                <textarea type="" id="letter" name="letter" placeholder="Ваше повідомлення..." maxlength="204"></textarea>
-                <button type="button" class="button" onclick="submitForm()">Надіслати</button>
+                <input type="text" id="name" name="user_name" placeholder="Прізвище Ім’я По-батькові" required>
+                <input type="text" id="adress" name="user_adress" placeholder="Адреса" required>
+                <input type="tel" id="tel" name="user_tel" placeholder="Телефон" required>
+                <input type="email" id="email" name="user_email" placeholder="E-mail" required>
+                <textarea type="" id="letter" name="user_letter" placeholder="Ваше повідомлення..." maxlength="204"></textarea>
+                <button type="submit" class="button">Надіслати</button>
+                <!-- onclick="submitForm()" -->
             </form>
             <div class="main__contacts__social-media">
                 <div class="social-wrapper">
